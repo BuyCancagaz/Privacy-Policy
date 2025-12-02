@@ -1,79 +1,145 @@
-Privacy Policy / Gizlilik Politikası
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Privacy Policy / Gizlilik Politikası</title>
+  <style>
+    :root{--bg:#f7fafc;--card:#ffffff;--accent:#0b74de;--muted:#6b7280;--maxw:900px}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;line-height:1.6;background:var(--bg);color:#111}
+    .wrap{max-width:var(--maxw);margin:40px auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    h1{font-size:1.25rem;margin:0}
+    .meta{font-size:0.9rem;color:var(--muted)}
+    .card{background:var(--card);border-radius:12px;padding:24px;margin-top:18px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+    .controls{display:flex;gap:8px;align-items:center}
+    button{background:transparent;border:1px solid #e6eef9;padding:8px 12px;border-radius:8px;cursor:pointer}
+    button.active{background:var(--accent);color:#fff;border-color:transparent}
+    section{margin-bottom:18px}
+    h2{font-size:1rem;margin:0 0 8px}
+    p, ul{margin:0 0 12px;color:#222}
+    ul{padding-left:1.25rem}
+    .muted{color:var(--muted);font-size:0.95rem}
+    footer{margin-top:12px;font-size:0.9rem;color:var(--muted)}
+    pre.small{white-space:pre-wrap;word-break:break-word;font-size:0.95rem;background:#f3f6fb;padding:10px;border-radius:8px}
+    @media (max-width:640px){.wrap{margin:20px 16px;padding:16px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>Privacy Policy / Gizlilik Politikası</h1>
+        <div class="meta">Last Updated / Son Güncelleme: <strong id="updated">[Tarih]</strong></div>
+      </div>
+      <div class="controls">
+        <span class="muted">Dil / Language:</span>
+        <button id="btn-tr" class="active">Türkçe</button>
+        <button id="btn-en">English</button>
+      </div>
+    </header>
 
-Last Updated / Son Güncelleme: 12.2.2025
+    <div class="card">
+      <main>
+        <!-- Turkish content -->
+        <section id="tr">
+          <h2>1. Giriş</h2>
+          <p>Bu Gizlilik Politikası, uygulamamızın Instagram API’si aracılığıyla erişilen verileri nasıl kullandığını ve koruduğunu açıklar. Uygulamayı kullanarak bu politikayı kabul etmiş olursunuz.</p>
 
-1. Introduction / Giriş
+          <h2>2. Topladığımız Veriler</h2>
+          <ul>
+            <li>Instagram Kullanıcı ID’si</li>
+            <li>Profil adı ve profil fotoğrafı</li>
+            <li>Medya içerikleri (fotoğraf, video, açıklama)</li>
+            <li>Temel etkileşim verileri</li>
+          </ul>
+          <p>Instagram API’nin izin verdiği dışında hiçbir kişisel veri toplanmaz.</p>
 
-This Privacy Policy explains how our application uses and protects data accessed through the Instagram API.
-Bu Gizlilik Politikası, uygulamamızın Instagram API’si aracılığıyla erişilen verileri nasıl kullandığını ve koruduğunu açıklar.
+          <h2>3. Verilerin Kullanımı</h2>
+          <p>Toplanan veriler yalnızca uygulama içinde içerik görüntülemek, bildirim/analiz/otomasyon sağlamak ve kullanıcı deneyimini geliştirmek amacıyla kullanılır. Verileriniz satılmaz veya üçüncü taraflara pazarlanmaz.</p>
 
-By using the application, you agree to this Privacy Policy.
-Uygulamayı kullanarak bu politikayı kabul etmiş olursunuz.
+          <h2>4. Veri Saklama</h2>
+          <p>Veriler, uygulamanın çalışması için gerekli olduğu süre boyunca saklanır. Çoğu durumda Instagram verileri geçici olarak işlenir ve kalıcı depolanmaz.</p>
 
-2. Data We Collect / Topladığımız Veriler
+          <h2>5. Üçüncü Taraf Hizmetleri</h2>
+          <p>Uygulamamız Instagram API’sini kullanır; API kullanımı Instagram’ın kendi politikalarına tabidir.</p>
 
-Through the Instagram API, we may access:
-Instagram API aracılığıyla şu verilere erişebiliriz:
+          <h2>6. Güvenlik</h2>
+          <p>Kullanıcı verilerini korumak için makul teknik ve idari önlemler uygulanır. Ancak internet üzerindeki veri aktarımı %100 güvenli değildir.</p>
 
-Instagram User ID / Instagram Kullanıcı ID’si
+          <h2>7. Kullanıcı Hakları</h2>
+          <p>Kullanıcılar verilerinin görüntülenmesini, düzeltilmesini veya silinmesini talep edebilir. Talepler için iletişime geçin:</p>
+          <pre class="small">E-posta: [email adresiniz]
+Uygulama / Şirket: [App / Company Name]</pre>
 
-Profile name and profile picture / Profil adı ve profil fotoğrafı
+          <h2>8. Politika Değişiklikleri</h2>
+          <p>Bu politika zaman zaman güncellenebilir. Güncellemeler bu sayfada yayınlanacaktır.</p>
+        </section>
 
-Media content (photos, videos, captions) / Medya içerikleri (fotoğraf, video, açıklama)
+        <!-- English content -->
+        <section id="en" style="display:none">
+          <h2>1. Introduction</h2>
+          <p>This Privacy Policy explains how our application uses and protects data accessed through the Instagram API. By using the application, you agree to this Privacy Policy.</p>
 
-Basic engagement data / Temel etkileşim verileri
+          <h2>2. Data We Collect</h2>
+          <ul>
+            <li>Instagram User ID</li>
+            <li>Profile name and profile picture</li>
+            <li>Media content (photos, videos, captions)</li>
+            <li>Basic engagement data</li>
+          </ul>
+          <p>We do not collect any personal data beyond what the Instagram API allows.</p>
 
-We do not collect any data beyond what the Instagram API allows.
-Instagram API’nin izin verdiği dışında hiçbir veri toplamayız.
+          <h2>3. How We Use Data</h2>
+          <p>Collected data is used only for displaying content within the app, notifications/analysis/automation, and improving user experience. We do not sell or market your data to third parties.</p>
 
-3. How We Use Data / Verileri Kullanım Amacımız
+          <h2>4. Data Storage</h2>
+          <p>Data is stored only as long as necessary for the app to function. In most cases Instagram data is processed temporarily and not stored permanently.</p>
 
-Collected data is used only for:
-Toplanan veriler yalnızca şu amaçlarla kullanılır:
+          <h2>5. Third-Party Services</h2>
+          <p>Our application uses the Instagram API, which is governed by Instagram’s own privacy policies.</p>
 
-Displaying content within the application / Uygulama içinde içerik görüntülemek
+          <h2>6. Security</h2>
+          <p>We apply reasonable technical and administrative measures to protect user data. However, no internet transmission is 100% secure.</p>
 
-Notifications, analysis, or automated features / Bildirim, analiz veya otomasyon özelliklerini sağlamak
+          <h2>7. User Rights</h2>
+          <p>Users may request access to, correction of, or deletion of their data. Contact us for such requests:</p>
+          <pre class="small">Email: [your email]
+App / Company: [App / Company Name]</pre>
 
-Improving the user experience / Kullanıcı deneyimini geliştirmek
+          <h2>8. Changes to This Policy</h2>
+          <p>We may update this Privacy Policy from time to time. Updates will be posted on this page.</p>
+        </section>
+      </main>
 
-We do not sell, share, or use your data for any other purpose.
-Verileriniz satılmaz, paylaşılmaz ve başka amaçlarla kullanılmaz.
+      <footer>
+        <div class="muted">Bu sayfayı GitHub Pages ile yayınlamak için: repo'nuzda <code>privacy-policy.html</code> dosyasını oluşturun ve Pages ayarlarından deploy edin.</div>
+      </footer>
+    </div>
+  </div>
 
-4. Data Storage / Veri Saklama
+  <script>
+    const btnTr = document.getElementById('btn-tr');
+    const btnEn = document.getElementById('btn-en');
+    const tr = document.getElementById('tr');
+    const en = document.getElementById('en');
+    const updated = document.getElementById('updated');
 
-We store data only as long as necessary for the application to function.
-Veriler yalnızca uygulamanın çalışması için gerektiği süre boyunca saklanır.
+    btnTr.addEventListener('click', ()=>{
+      tr.style.display='block'; en.style.display='none';
+      btnTr.classList.add('active'); btnEn.classList.remove('active');
+    });
+    btnEn.addEventListener('click', ()=>{
+      tr.style.display='none'; en.style.display='block';
+      btnEn.classList.add('active'); btnTr.classList.remove('active');
+    });
 
-In most cases, Instagram data is processed temporarily and not stored permanently.
-Çoğu durumda Instagram verileri geçici olarak işlenir ve kalıcı depolanmaz.
-
-5. Third-Party Services / Üçüncü Taraf Hizmetler
-
-Our application uses the Instagram API, which is governed by Instagram’s own privacy policies.
-Uygulamamız, Instagram API’sini kullanır ve API kullanımı Instagram’ın kendi gizlilik politikalarına tabidir.
-
-6. Security / Güvenlik
-
-We apply reasonable technical and administrative measures to protect user data.
-Kullanıcı verilerini korumak için makul teknik ve idari önlemler uygulanır.
-
-However, no internet transmission is 100% secure.
-Ancak internet üzerindeki hiçbir veri aktarımı %100 güvenli değildir.
-
-7. User Rights / Kullanıcı Hakları
-
-Users may request access to, correction of, or deletion of their data.
-Kullanıcılar, verilerinin görüntülenmesini, düzeltilmesini veya silinmesini talep edebilir.
-
-For such requests, contact us:
-Bu talepler için bizimle iletişime geçin:
-Email / E-posta: [email adresiniz]
-
-8. Changes to This Policy / Politika Değişiklikleri
-
-We may update this Privacy Policy from time to time.
-Bu Gizlilik Politikası zaman zaman güncellenebilir.
-
-Updates will be posted on this page.
-Güncellemeler bu sayfada yayınlanacaktır.
+    // Optional: set updated date automatically if placeholder not changed
+    if(updated.textContent.trim()==='[Tarih]'){
+      const d = new Date();
+      updated.textContent = d.toLocaleDateString();
+    }
+  </script>
+</body>
+</html>
